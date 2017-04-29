@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, rgba(255, 93, 177, 1) 0%, rgba(237, 171, 3, 1) 100%);
+}
+
+body,.mdl-layout-title,select,options{
+    font-family: 'Kalam', cursive;
+}
+
+::selection {
+    background: transparent;
+}
+
+.mdl-layout-title {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.cards {
+    height: calc(40vh);
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mdl-card {
+    top: calc(20vh - 100px);
+    height: 175px;
+    min-height: 175px;
+}
+
+div#feilds {
+    margin: 15px
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+select:focus {
+  color: transparent !important;
+    border:0;
+  text-shadow: 0 0 0 #000;
+}
+
+option {
+    color: #000;
+}
