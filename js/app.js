@@ -24,5 +24,5 @@ $('#Continent').change(function () {
 });
 $('#Country').change(function () {
     var code = this.value;
-    $('#flag').attr('src', "images/" + code + ".svg");
+    $('#flag').attr('src', "./images/" + code + ".svg");
 });
